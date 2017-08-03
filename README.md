@@ -17,12 +17,20 @@ shooter_player -> shot_player
 
 
 The program outputs the following:
+
 -> The top 5 shooters
+
 -> The top 5 map explorers
+
 -> The top 5 duel pairs (players that have shot eachother the most)
+
 -> The final score of the two teams
 
+
 Observations:
+
 -> The program considers that a round ends right before a new one begins, apart from the last round which ends when the END_CHAMPIONSHIP command is given. At that point, the program calculates a winning chance and determines which team would have won taking into account the remaining alive players and their scores. (You usually play for an amount of time, not for an amount of rounds, in real life);
+
 -> A player wins 2 points for shooting an enemy and looses 5 points for shooting a team-mate;
+
 -> I've used a hash table for storing and easily accessing the information related to players and two graphs: one for the sensors and their relative positions and one for the number of duels between a pair of players.
