@@ -1,6 +1,8 @@
 # laser-tag-system
 Paint Ball or Laser Tag game system that receives input from sensors or that can be used to analyse statistics from the game.
 
+(Bachelor's homework)
+
 Laser Tag is a real world game that simulates weapon warfare using equipment such ass special vests and laser emitting guns to detect when one player shoots towards another player and when a players passes by a zone in the arena.
 
 The program considers a Laser Tag championship consisting of more rounds (games).
